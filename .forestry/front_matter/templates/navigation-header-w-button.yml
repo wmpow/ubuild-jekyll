@@ -3,32 +3,12 @@ label: navigation-header-w-button
 hide_body: false
 fields:
 - type: text
-  hidden: true
-  label: block
+  hidden: false
   name: block
   default: header-2
+  description: Every day is an Adventure! Enjoy every moment!
+  label: Welcome
 - type: file
   name: logo
   label: Logo
-- type: field_group_list
-  name: navigation
-  label: Navigation
-  fields:
-  - type: text
-    name: link
-    label: link
-  - type: text
-    name: link_text
-    label: Link text
-  config:
-    labelField: link_text
-- type: field_group
-  name: cta
-  label: Call-to-action
-  fields:
-  - type: text
-    name: url
-    label: URL
-  - type: text
-    name: button_text
-    label: Button Text
+  default: "/uploads/2021/11/13/logopit_1636649178409.png"
